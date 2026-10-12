@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:8000/file/upload?picture
+method: POST
+queryParams:
+  picture: null
+order: 6000

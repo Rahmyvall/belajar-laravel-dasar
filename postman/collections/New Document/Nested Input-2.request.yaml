@@ -1,0 +1,20 @@
+$kind: http-request
+name: Nested Input
+url: http://localhost:8000/input/hello/input?name[first]=Eko&name[last]=Khannedy&name[middle]=Kurniawan&address[city]=Subang&address[country]=indonesia&hobbies[]=Coding&hobbies[]=Reading
+method: POST
+queryParams:
+  - key: name[first]
+    value: Eko
+  - key: name[last]
+    value: Khannedy
+  - key: name[middle]
+    value: Kurniawan
+  - key: address[city]
+    value: Subang
+  - key: address[country]
+    value: indonesia
+  - key: hobbies[]
+    value: Coding
+  - key: hobbies[]
+    value: Reading
+order: 3000

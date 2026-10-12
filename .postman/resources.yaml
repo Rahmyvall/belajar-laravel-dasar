@@ -1,0 +1,10 @@
+workspace:
+  id: 3e692ab6-bcaa-431a-9b7a-1167b4ddc1c1
+
+# Each entry here maps a local resource to one or more corresponding objects in Postman Cloud
+
+cloudResources:
+  globals:
+    ../postman/globals/workspace.globals.yaml: 722433ee-5ca6-4ce7-8ce0-a30ac293692c
+  collections:
+    ../postman/collections/New Document: 19066843-0b5b5562-c98d-429c-918c-b8a02608bd3d

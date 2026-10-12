@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:8000/input/hello/array?products[0][name]=Mac Book
+  Pro&products[0][price]=3000000&products[1][name]=Samsung
+  Galaxy&products[1][price]=15000000
+method: POST
+queryParams:
+  products[0][name]: Mac Book Pro
+  products[0][price]: "3000000"
+  products[1][name]: Samsung Galaxy
+  products[1][price]: "15000000"
+order: 4000

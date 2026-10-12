@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8000/input/type?name=Budi&married=true&birth_date=1990-10-10
+method: POST
+queryParams:
+  name: Budi
+  married: "true"
+  birth_date: 1990-10-10
+order: 5000
